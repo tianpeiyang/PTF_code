@@ -1,0 +1,11 @@
+width: 500
+height: 500
+configuration: "game/pinball_simple_single.cfg"
+random_start: True
+start_position: [[0.6,0.4]]
+target_position: [0.9,0.2]
+continuous_action: False
+sequential_state: True
+action_clip: 1
+reward_normalize: True
+done_reward: 10000

@@ -1,0 +1,33 @@
+reward_decay: 0.99
+output_graph: True
+save_model: True
+summary_output_times: 10
+regular: 0.005
+learning_rate_a: 0.0001
+learning_rate_c: 0.0001
+ENTROPY_BETA: 0.0005
+N_WORKERS: 1
+USE_CPU_COUNT: True
+load_model: False
+load_model_path: ''
+batch_size: 32
+update_rate: 0.4
+clip_value: 10.0
+
+#run
+reward_memory: 100
+save_per_episodes: 1000
+
+# network
+n_layer_a_1: 64
+n_layer_a_2: 64
+n_layer_c_1: 64
+n_layer_c_2: 64
+GLOBAL_NET_SCOPE: 'Global_Net'
+
+# output
+SAVE_PATH: "model"
+graph_path: "graph"
+reward_output: "output"
+output_filename: "out"
+log: "log"

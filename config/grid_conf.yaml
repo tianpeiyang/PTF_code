@@ -1,0 +1,10 @@
+task: 54
+ui_size: 40
+default_reward: 0
+default_type: 0
+done_reward: 5
+configuration: "game/grid_layout/hard_layout.lay"
+random_start: True
+start_position: [0,0]
+continuous_action: False
+reward_normalize: False

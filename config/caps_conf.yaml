@@ -1,0 +1,34 @@
+reward_decay: 0.99
+e_greedy: 0.9
+replace_target_iter: 300
+memory_size: 200000
+batch_size: 32
+e_greedy_increment: 0.0005
+start_greedy: 0.0
+output_graph: True
+save_model: True
+learning_step: 1000
+summary_output_times: 10
+regular: 0.005
+learning_rate_o: 0.0005
+learning_rate_t: 0.0005
+option_model_path: ['1', '2', '3']
+source_policy: 'dqn'
+xi: 0.0
+clip_value: 10
+learning_times: 1
+load_model: False
+load_model_path: ''
+#run
+reward_memory: 100
+save_per_episodes: 2000
+
+# network
+option_layer_1: 20
+
+# output
+SAVE_PATH: "model"
+graph_path: "graph"
+reward_output: "output"
+output_filename: "out"
+log: "log"

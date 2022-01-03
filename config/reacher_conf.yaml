@@ -1,0 +1,5 @@
+continuous_action: True
+action_clip: 1
+reward_normalize: False
+task: 't1'
+done_reward: 10

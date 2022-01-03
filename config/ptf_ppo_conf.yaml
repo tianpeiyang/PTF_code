@@ -1,0 +1,50 @@
+#copy dqn
+learning_rate_a: 0.0003
+learning_rate_c: 0.0003
+batch_size: 32
+option_batch_size: 32
+output_graph: True
+save_model: True
+summary_output_times: 10
+clip_value: 0.2
+reward_decay: 0.99
+c1: 1.0
+c2: 0.01
+epi_train_times: 1
+stochastic: True
+load_model: False
+load_model_path: ''
+option_model_path: ['1', '2', '3']
+memory_size: 200000
+e_greedy: 0.9
+replace_target_iter: 300
+e_greedy_increment: 0.0005
+start_greedy: 0.0
+learning_step: 1000
+regular: 0.005
+learning_rate_o: 0.0005
+learning_rate_t: 0.0005
+source_policy: 'dqn'
+c3: 0.0005
+xi: 0
+
+#run
+reward_memory: 100
+save_per_episodes: 2000
+
+# network
+policy: 'policy'
+old_policy: 'old_policy'
+n_layer_a_1: 20
+n_layer_a_2: 20
+n_layer_c_1: 20
+n_layer_c_2: 20
+temperature: 0.1
+option_layer_1: 20
+
+# output
+SAVE_PATH: "model"
+graph_path: "graph"
+reward_output: "output"
+output_filename: "out"
+log: "log"
