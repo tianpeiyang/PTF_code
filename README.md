@@ -3,16 +3,16 @@ Source code for paper: Efficient deep reinforcement learning via adaptive policy
 
 For reacher task, requirements follow:https://github.com/martinseilair/dm_control2gym
 
- * [PTF code](##PTF code)
- * [Installation](##Installation)
- * [Run an experiment](##Run an experiment)
-    * [Example](##Example)
-    * [Results](##results)
- * [Configuration](##Configuration)
-    * [Operating parameters](##Operating parameters)
-    * [Core parameters](##Core parameters)
-    * [Some experiences setting in paper](##Some experiences setting in paper)
- * [In BibTeX format](##In BibTeX format) 
+ * [PTF code](#PTF code)
+ * [Installation](#Installation)
+ * [Run an experiment](#Run an experiment)
+    * [Example](#Example)
+    * [Results](#results)
+ * [Configuration](#Configuration)
+    * [Operating parameters](#Operating parameters)
+    * [Core parameters](#Core parameters)
+    * [Some experiences setting in paper](#Some experiences setting in paper)
+ * [In BibTeX format](#In BibTeX format) 
 
 ## PTF code
  * ptf
@@ -64,15 +64,6 @@ win : False,  step : 100,  discounted_reward : 0.0,  discount_reward_mean : 0.0,
 win : False,  step : 100,  discounted_reward : 0.0,  discount_reward_mean : 0.0,  undiscounted_reward : 0,  reward_mean : 0.0,  episode : 2,
 ```
 
-#### Reacher Game
-use "game/reacher.py" to replace the original file in "site-packages/dm_control/suite/reacher.py"
-```
-#angle = self.random.uniform(0, 2 * np.pi)
-#radius = self.random.uniform(.05, .20)
-angle = np.pi * 0.75
-radius = 0.15
-```
-
 #### Results
 
 All results will be stored in the `results/alg_name/game_type/game_name/time` folder, every folder contains `graph`, `log`, `model`, `output`, `args.json`, `command.txt`
@@ -115,6 +106,15 @@ Default:
 * `e_greedy_increment=0.005`
 * `learning_rate_o=0.00001, learning_rate_t=0.00001`
 * `xi=0`
+
+#### Reacher Game
+use "game/reacher.py" to replace the original file in "site-packages/dm_control/suite/reacher.py"
+```
+#angle = self.random.uniform(0, 2 * np.pi)
+#radius = self.random.uniform(.05, .20)
+angle = np.pi * 0.75
+radius = 0.15
+```
 
 #### Some experiences Example
 ```
