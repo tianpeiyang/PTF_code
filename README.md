@@ -5,15 +5,15 @@ For reacher task, requirements follow:https://github.com/martinseilair/dm_contro
 
  * [PTF code](#PTF-code)
  * [Installation](#Installation)
- * [Run an experiment](#Run an experiment)
+ * [Run an experiment](#Run-an-experiment)
     * [Example](#Example)
     * [Results](#results)
  * [Configuration](#Configuration)
-    * [Operating parameters](#Operating parameters)
-    * [Core parameters](#Core parameters)
-    * [Reacher Game](#Reacher Game)
-    * [Some experiences setting in paper](#Some experiences setting in paper)
- * [In BibTeX format](#In BibTeX format) 
+    * [Operating parameters](#Operating-parameters)
+    * [Core parameters](#Core-parameters)
+    * [Reacher Game](#Reacher-Game)
+    * [Some experiences setting in paper](#Some-experiences-setting-in-paper)
+ * [In BibTeX format](#In-BibTeX-format) 
 
 ## PTF code
  * ptf
