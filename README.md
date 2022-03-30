@@ -5,7 +5,7 @@ For reacher task, requirements follow:https://github.com/martinseilair/dm_contro
 
  * [PTF code](#PTF-code)
  * [Installation](#Installation)
- * [Running experiment](#Running-experiment)
+ * [Running experiment](#Running-Example)
     * [Example](#Example)
     * [Results](#results)
  * [Configuration](#Configuration)
