@@ -7,4 +7,4 @@ REGISTRY = {}
 REGISTRY["pinball"] = PinballModel
 REGISTRY["grid"] = GRID
 REGISTRY['CartPole-v0'] = GYM
-#REGISTRY['reacher'] = CGYM
+REGISTRY['reacher'] = CGYM
