@@ -1,8 +1,6 @@
 # PTF_code
 Source code for paper: Efficient deep reinforcement learning via adaptive policy transfer
 
-For reacher task, requirements follow:https://github.com/martinseilair/dm_control2gym
-
  * [PTF code](#PTF-code)
  * [Installation](#Installation)
  * [Running Example](#Running-Example)
@@ -52,6 +50,11 @@ For reacher task, requirements follow:https://github.com/martinseilair/dm_contro
 python==3.6.5
 
 pip install -r requirements.txt
+
+For Reacher task, requirements (mujoco200, dm_control, dm_control2gym) follow: https://github.com/martinseilair/dm_control2gym
+
+Due to current DMC does not satisfy our transfer settings, you may need to replace the dm_control2gym and dm_control in site-packages/ of your python environment 
+with directories in ```/pkgs/```
 
 ## Running Example
 
